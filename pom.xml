@@ -37,6 +37,11 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
         <!-- 模板引擎：Thymeleaf -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
