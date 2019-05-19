@@ -1,0 +1,20 @@
+# 开发环境
+environment: development
+
+# 开启调试模式
+debug: false
+
+# log back 日志配置
+logging:
+  level:
+    root: info
+  # Windows，则为应用所在磁盘的根路径
+  # Linux，则为根路径下
+  path: /spring/springboot/
+
+# 禁用 thymeleaf 模板引擎缓存
+spring:
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html

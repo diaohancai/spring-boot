@@ -1,0 +1,5 @@
+# 生产环境
+environment: product
+
+# 关闭调试模式
+debug: false

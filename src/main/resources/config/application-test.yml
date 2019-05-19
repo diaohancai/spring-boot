@@ -1,0 +1,5 @@
+# 测试环境
+environment: test
+
+# 开启调试模式
+debug: true
